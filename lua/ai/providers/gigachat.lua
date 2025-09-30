@@ -31,7 +31,7 @@ end
 M.api_key = nil
 M.api_key_expires = 0
 M.api_key_received_in = 0
-M.api_key_timeout = 50000
+M.api_key_timeout = 5000
 
 local function update_api_key()
   local provider = Config.get_provider("gigachat")
